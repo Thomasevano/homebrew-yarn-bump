@@ -6,10 +6,10 @@ class YarnBump < Formula
   license "AGPL-3.0"
 
   def install
-    bin.install "yarn-bump"
+    bin.install 'yarn-bump'
   end
 
   test do
-    assert_match "show this help message", shell_output("#{bin}/yarn-bump --help")
+    system "false"
   end
 end
